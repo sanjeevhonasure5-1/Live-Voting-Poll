@@ -32,6 +32,7 @@ function App() {
   return (
     <div style={{ padding: '2rem', maxWidth: '500px', margin: 'auto', fontFamily: 'sans-serif' }}>
       <h2>Live Poll</h2>
+      <h3>Which is the best smartphone brand?</h3>
       {options.map(option => (
         <div key={option.id} style={{ marginBottom: '1rem' }}>
           <button 
@@ -46,5 +47,5 @@ function App() {
     </div>
   )
 }
-
+ 
 export default App
